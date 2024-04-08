@@ -1,0 +1,41 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Dahood Script HUB 🔫", "Ocean")--UIS theme and name of the hub
+
+--UIS
+--LightTheme
+--DarkTheme
+--GrapeTheme
+--BloodTheme
+--Ocean
+--Midnight
+--Sentinel
+--Synapse
+
+
+local Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("GUI")
+
+Section:NewButton("Osric.CC", "Works for some executers!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/YoungMetrosz/Osric.CC/main/Osric.cc%20MAIN%20LUA%20SOURCE"))()
+end)
+
+Section:NewButton("Azure v3", "Works for some executers!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/YoungMetrosz/AZURE-V3-LEAK/main/AZURE%20V3"))()
+end)
+
+Section:NewButton("Blazed leaked", "Works some times", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/YoungMetrosz/BLAZED-LEAKED-SOURCE-CODE-/main/BLAZED%20LEAKED"))()
+end)
+
+Section:NewButton("detazy", "Rip people in half", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/I4MMO/Detazy/main/Main', true))()
+end)
+
+Section:NewButton("Nyula", "Nyula still exists..", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/nyulachan/nyula/main/nyulauh"))();
+end)
+
+Section:NewButton("Swag mode", "The other scripts are better", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/nyulachan/nyula/main/nyulauh"))();
+end)
+
